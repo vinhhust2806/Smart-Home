@@ -19,14 +19,11 @@ var ip_add = "http://192.168.2.3/";
 
 var url;
 
-
-
 expressApp.use(bodyParser());
 expressApp.use(bodyParser.json()); 
 expressApp.use(cors());
 
 expressApp.post('/fulfillment', app);
-
 
 app.intent('devicecontrol', (conv,{devicename,devicestatus}) => {
     // speech = "I got "+lednumber+" and "+status;
