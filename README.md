@@ -20,7 +20,7 @@ Change id and pass of wifi in ```IOT.ino``` file
 - Run in Terminal of app.js:
 npm test
 
-- Creat intent and intergration of google assistant on dialogflow
+- Create intent and intergration of google assistant on dialogflow
 
 - Command Prompt
 ngrok
